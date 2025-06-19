@@ -1,0 +1,50 @@
+body{
+    background-image: url(Teddy\ Bear.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+header{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%; 
+    margin: auto;
+}
+.card-header{
+    background-color: rgb(175, 4, 4);
+    text-align: center;
+    color: whitesmoke;
+}
+.form-inline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form1 span{
+    padding-right: 4px; 
+    padding-left: 4px;
+}
+.btn{
+    background-color: rgb(0, 94, 0);
+    color: whitesmoke;
+    margin-left: 200px;
+    height: 40px;
+    width: 250px;
+}
+.perct{
+    width: 150px;
+    margin-left: 270px;
+}
+.card-footer{
+    text-align: center;
+}
